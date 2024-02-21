@@ -1,0 +1,12 @@
+.box {
+    margin: 50px 100px 100px 100px;
+}
+
+.lmj-layout {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(246, 246, 246, 1);
+    border-radius: 25px
+}

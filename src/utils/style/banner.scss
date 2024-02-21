@@ -1,0 +1,21 @@
+.lmj-banner{
+    height: 220px;
+    margin-bottom: 40px;
+}
+.lmj-banner img {
+    width: 100%;
+    height: 220px;
+    border-radius: 25px;
+    filter: opacity(0.20);
+    filter: brightness(50%);
+}
+.lmj-banner h1 {
+    position: relative;
+    bottom: 170px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
