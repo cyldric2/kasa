@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 80% ;
     
 }
 .texte{z-index: 2;
@@ -30,7 +30,19 @@ padding: 0 10px 0 10px;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
+    width: 100%;
 }
 .content ul {
     padding: 20px;
 }
+@media (max-width: 480px) {
+    .Top-bar{
+        margin: 0 10px 0 10px;
+        width: 100%;
+    }
+ .texte {
+     font-size: 18px;
+     height: 30px;
+     margin: 10px 0 10px 0;
+ }
+ }

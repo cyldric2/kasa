@@ -14,14 +14,14 @@
 
 .lmj-footer {
     @media (max-width: 480px) {
+    width: 90%;
+    img {
+        width: 30%
+    }
 
-        img {
-            width: 30%
-        }
-
-        p {
-            font-size: 80%;
-        }
+    p {
+        font-size: 80%;
+    }
 
     }
 }

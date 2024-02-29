@@ -7,32 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 480px) {
-    img {
-      width: 40%
-    }
-
-    a {
-      font-size: 80%;
-    }
-
-    .lmj-banner h1 {
-      font-size: 50%;
-    }
-
-    .lmj-banner img {
-      height: 50px;
-    }
-
-    .box {
-      margin: 20px;
-    }
-
-    .lmj-header {
-      padding: 20px;
-    }
-  }
 }
 
 code {

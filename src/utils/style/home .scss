@@ -10,3 +10,9 @@
     background: rgba(246, 246, 246, 1);
     border-radius: 25px
 }
+ @media (max-width: 480px) {
+.lmj-layout {
+    padding: 0;
+    background-color: white;
+}
+ }

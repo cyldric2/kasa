@@ -28,3 +28,14 @@
         margin: 40px;
 
 }
+@media (max-width: 480px) {
+    .chiffre{
+       font-size: 96px;
+    }
+    .oups{
+        font-size: 18px;
+    }
+   .retour {
+      font-size: 14px;
+   }
+}

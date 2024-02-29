@@ -1,3 +1,6 @@
+.active{
+border-bottom: 1px solid black;
+}
 .lmj-header {
     position: relative;
     padding: 20px 100px 20px 100px;
@@ -9,7 +12,8 @@
 
 .lmj-header a {
     color: black;
-    padding: 10px;
+   margin: 10px 10px 0 10px ;
+    text-decoration: none;
 }
 
 .lmj-header div {
@@ -18,3 +22,15 @@
     color: black;
 }
 
+@media (max-width: 480px) {
+.lmj-header img {
+        width: 40%
+    }
+
+        .lmj-header a {
+        font-size: 80%;
+    }
+    .lmj-header {
+        padding: 20px;
+    }
+}

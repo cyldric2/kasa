@@ -23,7 +23,10 @@ function Dropdown({ title,content}) {
                     <p>{arrowdown}</p>
                 </h3>
                 <div className='content'>
-                    <ul >{content }</ul>
+                    <ul >{Array.isArray(content)? content.map((element, index) => (
+                    <p key={index}>{element} </p>
+                    ))
+                    : content}</ul>
             </div>
         </div>
 	)

@@ -17,7 +17,7 @@ function apropos() {
              key={`${profile.title}-${index}`}
              title={profile.Title} 
             content={profile.Content}
-            
+          
           />
         ))}
       </div>

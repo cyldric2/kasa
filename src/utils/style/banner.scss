@@ -11,11 +11,33 @@
 }
 .lmj-banner h1 {
     position: relative;
-    bottom: 170px;
+    bottom: 70%;
     color: white;
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 700;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .box {
+            margin: 10px;
+        }
+.lmj-banner h1 {
+font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    bottom: 75%;
+}
+.lmj-banner  {
+    height: 120px;
+}
+.lmj-banner img {
+    height: 120px;
+    border-radius: 10px;
+}
 }
