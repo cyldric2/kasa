@@ -5,18 +5,13 @@ import LogementList from '../../assets/listLogement.json';
 import Dropdown from '../../components/dropdown'
 import Etoile from '../../components/etoile'
 import Carousel from '../../components/carousel'
+import Error from '../../components/error'
 
 
-
-
-/*const equipments = styled.div`
-  display: flex;
-  justify-content: center;
-`*/
 function Logement() {
   const id = useParams().id
   const ParamLog = LogementList.find(element => element.id === id)
-  console.log(ParamLog);
+  if (ParamLog === undefined){return <Error />}
  
   return (
   <div className='box'>
@@ -42,8 +37,8 @@ function Logement() {
       </div>
     </div>
     <div className='positionement3'>
-      <Dropdown title='équipements' content={ParamLog.equipments} />
-      <Dropdown title='description'content={ParamLog.description} />
+        <Dropdown title='description' content={ParamLog.description} />
+        <Dropdown title='équipements' content={ParamLog.equipments} />
     </div>
   </div>
   )}
